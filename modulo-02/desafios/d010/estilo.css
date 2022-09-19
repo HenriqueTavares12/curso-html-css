@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.cabecalho{
+    background-image: linear-gradient(to bottom, rgb(60 214 129),black);
+    color: white;
+    margin-top: 0px;
+}
+
+.titulo-inicial{
+    text-align: center;
+}
+p#texto-inicial{
+    text-align: center;
+}
+
+ul > li{
+    display: inline-block;
+    margin-left: 1%;
+    list-style: none;
+}
+
+.links-menu{
+    text-decoration: none;
+    color: white;
+}
+.links-menu:hover{
+    color:rgb(177, 241, 206)
+}
+
+body{
+    background-color: #84e1ad;
+}
+
+main{
+    width: 75%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+@font-face {
+    /* configuração da fonte baixada*/
+    font-family: 'droid'; /* nome da fonte que foi definido por mim*/
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+.droid-font{
+    font-family: 'droid';
+    color: rgb(1, 110, 1);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h2{
+    background-color: #84e1ac5e;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imagens{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    
+}
+
+/*extra*/
+
+.extra{
+    display: block;
+    margin: 10px;
+    background-color: rgb(177, 241, 206);
+    padding:0px 0px 5px 0px;
+    border-radius: 10px;
+}
+
+.titulo-extra{
+    background-color: #37c474;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.lista-ol{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10%;
+}
+
+.extra > p{
+    text-indent: 2%;
+    text-align: justify;
+}
+
+.fim-artigo{
+    padding: 5px;
+}
+
+
+/*rodape*/
+.rodape{
+    display: block;
+    background-color: black; 
+    margin-bottom: 0px;
+}
+
+.rodape > p{
+    color: #37c474;
+    text-align: center;
+    padding: 2px;
+}
+
+.destaque{
+    color: rgb(177, 241, 206);
+}
+
+.destaque-texto{
+    color: #26c76c;
+}
+
+.links-externos{
+    color: #26c76c;
+    text-decoration: none;
+}
+
+.links-extra{
+    color: black;
+}
+
