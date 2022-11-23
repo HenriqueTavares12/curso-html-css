@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando imagens de fundo</title>
+    <style>
+        div.caixas{
+            border: 1px solid black;
+            margin: 4px auto;
+            
+            display: block;
+            width: 800px;
+            height: 200px;
+            
+        }
+
+        div#caixa1{
+            background-image: url('..imagens/wallpaper002.jpg');background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            
+        }
+        div#caixa2{
+            background-image: url('..imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        div#caixa3{
+            background-image: url('..imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Praticando posicionamento de imagens de fundo</h1>
+        <div class="caixas" id="caixa1">
+
+        </div>
+        <div class="caixas" id="caixa2">
+
+        </div>
+
+        <div class="caixas" id="caixa3">
+
+        </div>
+    </main>
+    
+</body>
+</html>

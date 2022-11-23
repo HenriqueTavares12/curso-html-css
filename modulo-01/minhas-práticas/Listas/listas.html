@@ -5,44 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listas</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Listagem de Temas em HTML</h1>
-    <hr>
-    <h2>Livros lidos por mim</h2>
+    <header id="cabecalho">
+        <nav id="menu-navegacao">
+            <a href="">Home</a>
+            <a href="">Principal</a>
+            <a href="">Destaques</a>
+        </nav>
+    </header>
+    <main id="conteudo-principal">
+        <h1>Utilizando listas em HTML</h1>
+        <section id="sessao-ol">
+            <header>
+                <h1>Sessão de lista ordenada </h1>
+                <h2>Livros lidos por mim</h2>
+            </header>
+            <ol>
+                <li>O código da inteligência</li>
+                <li>Treinando a emoção para se feliz</li>
+                <li>Como ser interessante</li>
+                <li>Desenvolvendo os segredos da linguagem corporal</li>
+                <li>Seja Foda!</li>
+            </ol>
+        </section>
 
-    <ol>
-        <li>O código da inteligência</li>
-        <li>Treinando a emoção para se feliz</li>
-        <li>Como ser interessante</li>
-        <li>Desenvolvendo os segredos da linguagem corporal</li>
-        <li>Seja Foda!</li>
-    </ol>
+        <section id="sessao-ul">
+            <header>
+                <h1>Sessão de listas não ordenadas</h1>
+                <h2>Livros com leitura em andamento</h2>
+            </header>
+            <ul>
+                <li>O livro da Ciência</li>
+                <li>HTML e CSS guia prático e visual</li>
+                <li>Use a cabeça! PHP & MySQL</li>
+            </ul>
+        </section>
 
-    <h2>Livros com leitura em andamento</h2>
-    <ul>
-        <li>O livro da Ciência</li>
-        <li>HTML e CSS guia prático e visual</li>
-        <li>Use a cabeça! PHP & MySQL</li>
-    </ul>
 
-    <h2>Definições de alguns termos e tecnologias da informática</h2>
-    <dl>
-        <dt>HTTP</dt>
-        <dd>A sigla <strong>HTTP</strong> na verdade é um protocolo que
-        deve ser seguido para que as informações das páginas web
-        sejam transmitidas pela rede</dd>
-
-        <dt>Links</dt>
-        <dd>Links são âncoras que tem como função fazer o usuário
-            "viajar" pela web, entre artigos e sites. As âncoras são
-            clicáveis, e o usuário pode clicar se desejar visitar
-            uma outra pagina web, ou visitar um artigo que tenha explicações
-            das quais o usuário procura.
-        </dd>
-
-        <dt>URLs</dt>
-        <dd>Uma URL é o endereço de um site hospedado em um servidor web.</dd>
-    </dl>
+        <section id="sessao-dl">
+            <header>
+                <h1>Sessão de listas de definição</h1>
+                <h2>Definições de alguns termos e tecnologias da informática</h2>
+            </header>
+            <dl>
+                <dt>HTTP</dt>
+                <dd>A sigla <strong>HTTP</strong> na verdade é um protocolo que
+                deve ser seguido para que as informações das páginas web
+                sejam transmitidas pela rede</dd>
+                <dt>Links</dt>
+                <dd>Links são âncoras que tem como função fazer o usuário
+                    "viajar" pela web, entre artigos e sites. As âncoras são
+                    clicáveis, e o usuário pode clicar se desejar visitar
+                    uma outra pagina web, ou visitar um artigo que tenha explicações
+                    das quais o usuário procura.
+                </dd>
+                <dt>URLs</dt>
+                <dd>Uma URL é o endereço de um site hospedado em um servidor web.</dd>
+            </dl>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Copyright &copy; Henrique Tavares</p>
+    </footer>
 </body>
 </html>

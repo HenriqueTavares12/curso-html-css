@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header#cabecalho{
+    background-color: black;
+    height: 100px;
+}
+
+nav#menu-navegacao{
+    position: relative;
+    top: 80px;  
+    text-align: center;
+  
+}
+nav#menu-navegacao a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+
+main#conteudo-principal{
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+main section {
+    margin-bottom: 5%;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+section  header h1{
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 2em;
+}
+
+header h2{
+    font-size: 1.4em;
+}
+
+section#sessao-ol{
+    padding: 20px;
+    background-color: darkgrey;
+    
+}
+
+section#sessao-ol ol{
+    list-style-position: inside; /* Joga a lista para dentro do elemento pai*/
+    
+}
+
+
+section#sessao-ul{
+    padding: 20px;
+    background-color: cornflowerblue;
+    
+}
+
+section#sessao-ul{
+    list-style-position: inside;
+}
+
+section#sessao-dl{
+    padding: 20px;
+    background-color: lemonchiffon;
+}
+
+
+section#sessao-dl dl dt{
+    font-size: 1.4em;
+}
+
+section#sessao-dl dd{
+    text-indent: 12px;
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    height:80px
+}
+
+footer p {
+    color:white;
+    text-align: center;
+}

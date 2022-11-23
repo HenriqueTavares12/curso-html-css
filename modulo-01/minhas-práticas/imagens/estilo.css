@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 1px;
+}
+header#cabecalho{
+    position: sticky;
+    top: 0%;
+    height: 70px;
+    padding: 5px;
+    background-color: darkgray;
+   
+    
+}
+
+nav#menu-navegacao{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+nav#menu-navegacao a{
+    color: black;
+    text-decoration: none;
+    font-size: xx-large;
+    margin-left: 15px;
+}
+
+main{
+    margin: auto;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    padding-bottom: 100px;
+}
+
+section#sessao-imagens{
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+section.sessao-descricao{
+    width: 60vw;
+    margin: auto;
+    text-align: justify;
+}
+
+h1.titulo-sessao{
+    color: black;
+}
+
+div.card{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 20px;
+}
+
+div.card img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+footer{
+    background-color: black;
+    
+}
+
+footer p {
+    height: 50px;
+    text-align: center;
+    color:white;
+}
