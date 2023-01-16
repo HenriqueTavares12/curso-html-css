@@ -1,30 +1,59 @@
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-article{
-    width: 700px;
-    height: auto;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+main{
+    min-height: 100vh;
+    min-width: 700px;
 }
 
+/* Cabeçalho */
 header#cabecalho{
+    min-width: 700px;
+    max-width: 100vw;
     background-color: rgb(118, 195, 247);
-    
     height: 100px;
-    padding: 10px;
+    position: relative;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: bold;
+    text-shadow: 7px 8px 16px #0000004f;
+}
+.logo-titulo img{
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-titulo{
+    display: inline-block;
+}
+.logo-titulo a{
+    text-decoration: none; 
+}
+
+.logo-titulo p#titulo-pagina{
+    display: block;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    font-weight: bold;
+    
 }
 
 nav#menu-navegacao{
-    position: relative;
+    display: block;
+    width: 100%;
     background-color: rgb(253, 253, 253);
-    top: 80%;
-    margin: 5px;
     border-radius: 5px;
-    
+    position: absolute;
+    bottom: 5px;
 }
 
 ul#lista-menu{
@@ -37,51 +66,95 @@ ul#lista-menu > li{
     position: relative;
     display: inline-block; 
     margin-left: 10px;
+    padding: 3px;
 }
+
 
 ul#lista-menu a {
     text-decoration: none;
     color: black;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-ul#lista-menu a:hover {
-    color: dodgerblue;
+ul#lista-menu a:hover{
+    background-color: #000;
+    color: #FFF;
+}
+
+
+/* conteudo */
+
+article{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 h1#titulo-principal{
     text-align: center;
     font-size: 2.3em;
     padding: 10px;
+    
+}
+
+.conteudo{
+    margin-top: 50px;
+    padding: 5px;
+    border-top: 2px solid dodgerblue;
 }
 
 h2{
     text-align: center;
     font-size: 1.8em;
     padding: 10px;
+    text-decoration: underline;
 }
 
 img{
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
     padding: 5px;
-    
+    margin-top: 50px;
 }
 
 p{
     padding: 10px;
-    text-indent: 20px;
+    text-indent: 10px;
+    line-height: 1.5em;
+    font-size: 1.3em;
     text-align: justify;
+}
+
+
+.titulo-lista{
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.2em;
 }
 
 ul.lista-definicoes{
     line-height: 1.4em;
 }
 
+ul.lista-front{
+    text-align: justify;
+    list-style-position: inside;
+    margin: 5px 0;
+}
 
+ul.lista-front li{
+    font-size: 1.2em;
+}
+
+/* rodapé */
 footer#rodape{
-    
+    min-width: 700px;
     height: auto;
     background-color: rgb(56, 50, 50);
     
