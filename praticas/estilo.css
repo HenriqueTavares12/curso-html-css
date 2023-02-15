@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: darkgray;
+    height: 300vh;
+}
+
+div#pai{
+    position: relative;
+    width: 600px;
+    left: 25%;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+
+
+div.filho{
+
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+}

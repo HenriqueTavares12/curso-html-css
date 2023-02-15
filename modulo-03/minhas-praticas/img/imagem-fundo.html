@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praticando imagens de fundo</title>
     <style>
+        
         div.caixas{
             border: 1px solid black;
-            margin: 4px auto;
-            
+            margin: 50px auto;
             display: block;
             width: 800px;
             height: 200px;
@@ -17,22 +17,127 @@
         }
 
         div#caixa1{
-            background-image: url('..imagens/wallpaper002.jpg');background-repeat: no-repeat;
-            background-position: center top;
-            background-size: cover;
+            background-image: url('../imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: contain;
+            background-attachment: fixed;
             
         }
         div#caixa2{
-            background-image: url('..imagens/wallpaper002.jpg');
+            background-image: url('../imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
+            background-position: right center;
+            background-size: contain;
+            background-attachment: fixed;
         }
         div#caixa3{
-            background-image: url('..imagens/wallpaper002.jpg');
+            background-image: url('../imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        .caixas-envelopadas{
+            display: block;
+            text-align: center;
+        }
+
+        .caixas-top{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            margin: 5px 10px;
+            border: 1px solid black;
+        }
+
+        #caixa-top-1{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        #caixa-top-2{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        #caixa-top-3{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        .caixas-center{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            margin: 5px 10px;
+            border: 1px solid black;
+        }
+
+        #caixa-center-1{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        #caixa-center-2{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        #caixa-center-3{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        .caixas-bottom{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            margin: 5px 10px;
+            border: 1px solid black;
+        }
+
+        #caixa-bottom-1{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        #caixa-bottom-2{
+            background-image: url('../predios.jpg');
             background-repeat: no-repeat;
             background-position: center bottom;
-            background-size: cover;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+
+        #caixa-bottom-3{
+            background-image: url('../predios.jpg');
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: contain;
+            background-attachment: fixed;
         }
     </style>
 </head>
@@ -49,6 +154,45 @@
         <div class="caixas" id="caixa3">
 
         </div>
+
+
+        <hr>
+
+
+        <div class="caixas-envelopadas">
+            <div id="caixa-top-1" class="caixas-top">
+            </div>
+            <div id="caixa-top-2" class="caixas-top">
+            </div>
+            <div id="caixa-top-3" class="caixas-top">
+            </div>
+        </div>
+
+
+
+        <div class="caixas-envelopadas">
+            <div id="caixa-center-1" class="caixas-center">
+            </div>
+            <div id="caixa-center-2" class="caixas-center">
+            </div>
+            <div id="caixa-center-3" class="caixas-center">
+            </div>
+        </div>
+
+
+
+
+        <div class="caixas-envelopadas">
+            <div id="caixa-bottom-1" class="caixas-bottom">
+            </div>
+            <div id="caixa-bottom-2" class="caixas-bottom">
+            </div>
+            <div id="caixa-bottom-3" class="caixas-bottom">
+            </div>
+        </div>
+        
+
+        
     </main>
     
 </body>
