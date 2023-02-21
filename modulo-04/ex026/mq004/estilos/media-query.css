@@ -73,6 +73,10 @@ Grandes Telas: acima de 1200px
         background-image: url(../imagens/back-pc.jpg);
     }
 
+    main{
+        width: 600px;
+    }
+
     img#phone { display: none;}
     img#tablet { display: none;}
     img#print { display: none;}
