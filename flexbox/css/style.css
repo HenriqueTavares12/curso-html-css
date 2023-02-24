@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body{
+    padding-bottom:500px ;
+}
+.container{
+    background-color: #EEF;
+    border: 2px solid red;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    display: flex;
+    /* alinhamento horizontal */
+    justify-content: space-between;
+    /* alinhamento vertical */
+    align-items: center;
+    /*flex-wrap: wrap;*/
+
+}
+
+.item{
+    background-color: #ccc;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+}
+
+.box{
+    background-color: #ccc;
+    border: 2px solid blue;
+    height: 50px;
+    /* define uma largura padrão para os itens ao serem declarados */
+    /* flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+
+    /* shorthand para item */
+    flex: 1 1 50px;
+    /* GROW SHRINK E BASIS */
+}
+
+/* #item-1{ */
+    /* define como um item vai crescer no layout */
+    /* flex-grow: 2;
+}
+
+#item-2, #item-3{
+    flex-grow: 1;
+}
+
+#item-2{
+    flex-basis: 100px;
+}
+
+#item-3{
+    /* controla a forma como o elemento diminui (mais rápido que o normal) */
+    /* flex-shrink: 2;
+}*/ 
+
+/* Alterando a ordem dos elementos */
+#item-2 {
+    order: 1;
+}
+
+
+#item-3 {
+    order: 2;
+}
+
+#item-1 {
+    order: 3;
+}
